@@ -1,0 +1,52 @@
+.block {
+    border-radius: 30px;
+    padding: 70px 60px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.block:hover {
+    transform: translateY(-10px);
+}
+.arrow span{
+    transition: all ease-in-out .5s;
+}
+.arrow span:hover{
+    padding-left: 1550%;
+}
+.title {
+    color: var(--text-black);
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.title h3 {
+    margin: 15px 0;
+}
+
+.name {
+    color: var(--text-blue);
+}
+.activeLink{
+    color: var(--text-black);
+}
+.activeLink:visited{
+    color: var(--text-black);
+}
+.footer {
+    color: var(--text-gray);
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.footer a {
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.activeLink:hover {
+    color: var(--text-blue)
+}

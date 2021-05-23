@@ -1,0 +1,22 @@
+.active{
+    color: var(--text-warning);
+}
+.title{
+    text-align: left;
+    margin-top: 230px;
+}
+.title h1{
+    font-size: 50px;
+    color: var(--text-black);
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 24px;
+    max-width: 50%;
+    color: var(--text-gray);
+}
+.border{
+    width: 50%;
+    height: 2px;
+    background-color: var(--text-gray);
+}

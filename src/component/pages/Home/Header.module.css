@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    align-items: center;
+}
+.none{
+    display:none;
+}
+.logo{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
