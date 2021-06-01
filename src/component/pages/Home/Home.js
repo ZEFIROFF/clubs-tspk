@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Home.module.css'
 import Header from './Header.js'
 import Title from './Title.js'
-import Clubs from "./Clubs";
+import ClubsGrid from "./ClubsGrid";
 
 const Home = () => {
     return (
@@ -12,8 +12,7 @@ const Home = () => {
             </header>
             <main>
                 <Title/>
-                <span className={s.border}></span>
-                <Clubs/>
+                <ClubsGrid/>
             </main>
         </div>
     );

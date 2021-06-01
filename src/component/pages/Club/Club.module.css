@@ -1,8 +1,47 @@
 .title{
     color:var(--text-warning);
     font-size: 60px;
+    display: flex;
+    margin-bottom: 120px;
 }
 .description{
     font-size: 24px;
     color:var(--text-black);
+}
+.arrowsBlack{
+    transform: rotate(0.5turn);
+}
+.image img{
+    border-radius: 30px;
+}
+.backLink{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.backLink a{
+    font-size: 24px;
+    color:var(--text-link);
+    margin-left: 15px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.backLink a:hover{
+    color:var(--text-blue);
+}
+.title_left{
+    width: 50%;
+}
+.time{
+    color:var(--text-blue);
+    font-size: 30px;
+    font-weight: 500;
+}
+.place, .link{
+    margin-top: 20px;
+}
+.link{
+    color:var(--text-link);
+}
+.link:visited{
+    color:var(--text-link);
 }

@@ -2,24 +2,22 @@ import './App.css';
 import Home from "./component/pages/Home/Home";
 import Club from "./component/pages/Club/Club"
 import {BrowserRouter, Route} from "react-router-dom";
-import ClubBlock from "./component/pages/Home/ClubBlock";
-import {clubsDataStyles, clubsName} from "./Data";
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 
 function App() {
-  return (
-    <div className="App">
-        <BrowserRouter>
-            <Route exact path="/">
-            <Home/>
-            </Route>
-            <Route path="/clubs">
-            <Club/>
-            </Route>
-        </BrowserRouter>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+                <Route path="/clubs/:urlTitle">
+                    <Club/>
+                </Route>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
